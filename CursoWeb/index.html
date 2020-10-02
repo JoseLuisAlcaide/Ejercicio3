@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es"> <!--lengua=español-->
+<!--Aqui empieza el encabezado-->
+<!--contendra la etiqueta <title> que sera la unica obligatoria en el encabezado y la unica que se mostrara en el navegador-->
+<!--declaraciones o llamadas a hojas de estilo CSS-->
+<!--funciones o vinculos a JavaScript-->
+<!--informacion dirigida a los motores de busqueda para mejorar la indexacion y el posicionamiento de la pagina-->
+<!--indformacion dirigida a los navegadores-->
+<!--meta etiquetas que retoman la codificacion, la descripcion de la pagina, las palabras clave asociadas a la pagina, el nombre del autor, menciones de copyright, etc-->
+<head>
+<!--meta charset=formato de codificacion de caracteres, UTF-8 es unicode de diferente idiomas-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>lo que aparecera el la pestaña del navagador</title>-->
+    <title>Mi Html</title>
+    <style type="text/css">
+    h1 { color: blue ; text-align: center;}
+    .efecto1 {padding-left: 20px; font-style: oblique; color: blue;}
+    .efecto2 {font-style: oblique; color: darkviolet;}
+    .negrita {font-weight: bold;}
+    .cursiva {font-style: oblique;}
+    </style>
+    
+   
+</head>
+<!--Aqui termina el encabezado-->
+<!--Aqui empieza el cuerpo de la pagina-->
+<body>
+   
+    <h1>Un primer documento en Html5.</h1>
+    <h2 class="efecto1">Mi primer efecto CSS</h2>
+    <h2>Sin efecto CSS</h2>
+    <p class="efecto1"> Esto es un parrafo con cambio de linea<br>
+    ya que contiene la etiqueta <b>br</b>. <br>
+    y esta definido por el atributo class y su valor efecto1.</p>
+    <p>Este segundo parrafo contiene cambio de linea <br>
+    pero no tiene definido ningun atributo ni valor.<br>
+    no bstante se utilizara la etiqueta <b>b para negrita</b><br>
+    mas otro cambio de linea. </p>
+    <p>Este parrafo define la etiqueta strong <strong>hace lo midmo que la etiqueta b visualmenste<br>
+    pero refuerza el contenido para los programas de sintesis vocal.</strong></p>
+    <br>
+    <h3 class="efecto2"> CURSIVA</h3>
+        <p>Este parrafo contiene la etiqueta i <i>para cursivas</i> <br>
+    mas la suma de i+b <i><b>para cursiva y negrita</b></i><br>
+    tambien contiene la etiequeta em <em>para enfasis</em> hace lo mismo que la etiqueta i aunque tiene como objetivo poner de relieve el texto que la contiene.</p>
+    <br>
+    <h3 class="efecto2">EXPONENTE Y SUBINDICE</h3>
+        <p>Para hacer un exponente se usara la etiqueta <b>sup</b><br>
+    Para hacer un subindice se usara la etiqueta <b>sub</b><br>
+    <b><i>Ejemplo</i></b><br>
+    (a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab<br>
+    H<sub>2</sub>O</p>
+    <br>
+    <h3 class="efecto2">TEXTO TACHADO</h3>
+        <p>Para hacer un texto tachado se usara la etiqueta del <del>TACHADO</del><br>
+        esto es muy util en la actualizacion de un precio en un sitio comercial.</p><br>
+    <h3 class="efecto2">TEXTO PREFORMATEADO</h3>
+        <p>La etiqueta pre <pre>permite ver el texto
+            tal y como lo hemos codificado en un editor de texto
+            Los espacios,       tabulaciones y retorno de carro
+
+            se respetan. El texto se visualizara con tipo de letra de paso
+        </pre></p>
+    <h3 class="efecto2">DIRECCION DEL TEXTO</h3>
+        <p>La etiqueta bdo indica la direccion del Texto (de izquierda a derecha o de     derecha a izquierda<br>
+            Los atributos son:<br>
+    dir="ltr" para de izquierda a derecha (por defecto)<br>
+    dir="rtl" para de derecha a izquierda<br>
+    <b><i>Ejemplo</i></b><br>
+    <bdo dir="ltr">El perro de San Roque no tiene ravo</bdo><br>
+    <bdo dir="rtl">El perro de San Roque no tiene ravo</bdo></p>
+    <h3 class="efecto2">NEGRITA</h3>
+    <P> la</P>
+
+</body>
+ <!--Aqui termina el cuerpo de la pagina-->
+</html>
