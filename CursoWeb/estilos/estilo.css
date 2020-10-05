@@ -6,3 +6,5 @@ h1 { color:red ; text-align: center;}
 .cursiva4 {font-style: inherit;}
 .cursiva5 {font-style: initial;}
 .cursiva6 {font-style: unset;}
+.negrita {font-weight: bold;}
+.negrita2 {font-weight: bolder;}
