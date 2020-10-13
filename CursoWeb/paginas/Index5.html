@@ -7,6 +7,7 @@
     <style type="text/css">
     .ul {text-align: center;}
     .li {color: red;text-align:justify;}
+    .li2 {color:blue;text-align:justify;}
     </style>
     
     <!-- <link rel="stylesheet" href="estilos/estilo.css"> -->
@@ -14,12 +15,19 @@
 </head>
 <body>
  <h1 style="text-align: center; font-style: italic; font-weight: bold;">Fundamentos JavaScript</h1>
- <ul class="ul">
+ <ol class="ul">
      <li class="li">Primavera</li>
      <li class="li">Verano</li>
      <li class="li">Otoño</li>
      <li class="li">Invierno</li>
-    </ul>
+ </ol>
+ <br>
+ <ul class="ul">
+     <li class="li2">Primavera</li>
+     <li class="li2">Verano</li>
+     <li class="li2">Otoño</li>
+     <li class="li2">Invierno</li>
+ </ul>
 
 <script type="text/javascript">
 let nombre = "Jose Luis";
@@ -64,6 +72,37 @@ ul2 = `<ul>
  console.log(MenorIgual)//True
 
 
+// Arrays
+const a = [];
+const b = [1, true,"Hola",["A", "B", "C", [1,2,3]]];
+console.log(a);
+console.log(b);
+console.log(b.length);
+console.log(b[2]);
+console.log(b[0]);
+console.log(b[3][2]);
+console.log(b[3][3][0]);
+
+const c = Array.of("X", "Y", "Z", 9, 8, 7);
+console.log(c)
+
+const d =Array(100).fill(false);
+console.log(d)
+
+const colores = ["Rojo", "Verde", "Azul"];
+console.log(colores)
+colores.push("negro");
+console.log(colores)
+colores.pop()
+console.log(colores)
+// colores.pop()
+// console.log(colores)
+
+colores.forEach(function (el,index){
+    console.log(`<li id="${index}">${el}</li>`);
+});
+
+// Objeto
 
 </script>
 
